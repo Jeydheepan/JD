@@ -4,7 +4,7 @@ int main()
 {
   int a;
   cin>>a;
-  if(a>o)
+  if(a>0)
   {
      cout<<"Positive";
   }
