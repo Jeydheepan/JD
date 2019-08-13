@@ -4,7 +4,13 @@ int main()
 {
     int a;
     cin>>a;
-    if(a%2==0)
+    if(a<0)
+    {
+        cout<<"Invalid";
+    }
+    else
+    {
+         if(a%2==0)
     {
         cout<<"Even";
     }
@@ -12,4 +18,7 @@ int main()
     {
         cout<<"Odd";
     }
+
+    }
+
 }
