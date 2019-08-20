@@ -5,7 +5,7 @@ int main()
   int num1, num2, i, num, digit, sum;
   cin >> num1;
   cin >> num2;
-  for(i = num1; i <= num2; i++)
+  for(i = num1; i < num2; i++)
   {
         sum = 0;
         num = i;
