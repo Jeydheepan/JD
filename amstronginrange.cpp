@@ -16,7 +16,7 @@ int main()
         }
         if(sum == i)
         {
-            cout << i << endl;
+            cout << i << " ";
         }
   }
   return 0;
