@@ -1,0 +1,25 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main()
+{
+    int a[100];
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    sort(a,a+n);
+    if(n%2!=0)
+    {
+        cout<<a[n/2];
+
+    }
+    else
+    {
+        cout<<a[(n - 1) / 2] + a[n / 2] / 2;
+    }
+
+}
+
